@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Josefin+Sans&display=swap');
+
+.icones {
+height:60px;
+}
+
+.principal {
+text-align: center;
+font-family: 'Climate Crisis', cursive;
+padding: 0px;
+}
+
+table {
+	border: 2px solid black;
+	margin: auto;
+	padding: 0px;	
+}
+
+td {
+	background-color: #403d3d;
+	color: black;
+	font-family: 'Climate Crisis', cursive;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0px;
+	padding: 2.5em;
+	font-size: 135%;
+}
+
+.kanban {
+	display: flex;
+	min-height: 400px;
+	padding: 10px;
+	gap: 10px;
+}
+
+.column {
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	background-color: black;
+	min-width: 200px;
+}
+
+#classeA {
+	background-color: red;
+}
+
+#classeB {
+	background-color: orange;
+}
+
+#classeC {
+	background-color: yellow;
+}
+
+#classeD {
+	background-color: green;
+}
+
+#caixaA {
+	width: 500px;
+}
+
+.item {background-color: blue;
+padding: 10px;
+border-radius: 5px;
+width: 50px;}
+
+.dragging {
+	opacity: 0.5;
+}
+
